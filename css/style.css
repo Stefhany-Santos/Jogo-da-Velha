@@ -1,0 +1,67 @@
+/*========== CORPO DO SITE ==========*/
+body{
+    text-align: center;
+    margin: 40px auto;
+    background-color: rgb(28, 28, 28);
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+/*========== TITULO ==========*/
+h1{
+    margin-bottom: 20px;
+}
+
+/*========== CARD ==========*/
+.card{
+    width: 70px;
+    padding: 15px;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    background-color: #8a2be2;
+
+    display: inline-block;
+    color: rgb(0, 0, 0);
+   margin: 4px 1px;
+    border-radius: 3px;
+
+    cursor: pointer;
+
+}
+
+/*========== JOGADOR E VENCEDOR ==========*/
+.jogador, 
+.vencedor {
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+/*========== VENCEDOR ==========*/
+.vencedor{
+    margin-top: 10px;
+}
+
+/*========== BOTÃO ==========*/
+button {
+    width: 100px;
+    height: 33px;
+    padding: 5px;
+
+    background-color: #8324dc;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #671dab;
+    font-size: 16.3px;
+    font-weight: bold;
+}
